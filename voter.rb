@@ -1,6 +1,5 @@
 require 'sinatra'
 require 'yaml/store'
-votes = {}
 
 get '/' do
   @title = "Машина за гласуване"
